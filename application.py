@@ -1,7 +1,7 @@
 from flask import Flask, render_template, jsonify, request
 import pandas as pd
 import numpy as np
-
+import seaborn as sns
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 
 
